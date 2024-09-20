@@ -1,0 +1,21 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<Proline &le; 0.188<br/>gini = 0.665<br/>samples = 20<br/>value = [7, 7, 6]<br/>class = 1>, fillcolor="#ffffff"] ;
+1 [label=<Hue &le; -0.564<br/>gini = 0.486<br/>samples = 12<br/>value = [0, 7, 5]<br/>class = 2>, fillcolor="#c6f8db"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<DilutedWines &le; -0.542<br/>gini = 0.278<br/>samples = 6<br/>value = [0, 1, 5]<br/>class = 3>, fillcolor="#9a61ea"] ;
+1 -> 2 ;
+3 [label=<gini = 0.0<br/>samples = 5<br/>value = [0, 0, 5]<br/>class = 3>, fillcolor="#8139e5"] ;
+2 -> 3 ;
+4 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1, 0]<br/>class = 2>, fillcolor="#39e581"] ;
+2 -> 4 ;
+5 [label=<gini = 0.0<br/>samples = 6<br/>value = [0, 6, 0]<br/>class = 2>, fillcolor="#39e581"] ;
+1 -> 5 ;
+6 [label=<Hue &le; -0.527<br/>gini = 0.219<br/>samples = 8<br/>value = [7, 0, 1]<br/>class = 1>, fillcolor="#e99355"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 0, 1]<br/>class = 3>, fillcolor="#8139e5"] ;
+6 -> 7 ;
+8 [label=<gini = 0.0<br/>samples = 7<br/>value = [7, 0, 0]<br/>class = 1>, fillcolor="#e58139"] ;
+6 -> 8 ;
+}

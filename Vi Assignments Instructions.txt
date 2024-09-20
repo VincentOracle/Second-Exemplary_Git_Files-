@@ -1,0 +1,44 @@
+To complete this assignment, follow these steps:
+
+Open a Terminal: If you're using a Linux system, you can open the Terminal. If you're on Windows, you can use a terminal emulator like PuTTY or use Windows Subsystem for Linux (WSL).
+
+Open vi: In the Terminal, type the following command to open vi and create a new file:
+
+
+vi Introduction to Linux_vi_Editor Assignment.txt
+This command opens the Introduction to Linux_vi_Editor Assignment.txt file in the vi editor. If the file doesn't exist, it will be created.
+
+Enter "Insert" Mode: By default, vi opens in "Command" mode, where you can't ed
+
+it the text. To enter "Insert" mode and start typing your essay, press i. You'll see -- INSERT -- at the bottom of the screen.
+
+Write Your Essay: You can now write your essay. You can copy and paste text from your research or type it directly.
+
+Save Your Work: To save your work, press Esc to exit "Insert" mode, and then type :w and press Enter. This command saves your changes. You can also save the file with a different name by typing :w filename.txt.
+
+Quit vi: To exit vi, press Esc to ensure you're in "Command" mode, then type :q and press Enter. If you've made changes and haven't saved, vi won't let you quit with :q. To force quitting without saving, use :q!.
+
+Review Your Work: You can view the contents of your file by using a command like cat in the terminal:
+
+
+cat Introduction to Linux_vi_Editor Assignment.txt
+This displays the contents of your file on the terminal.
+
+Reopen Your Work: If you need to make further changes, you can reopen the file in vi:
+
+
+vi Introduction to Linux_vi_Editor Assignment.txt
+Then, press i to enter "Insert" mode and make your changes.
+
+Save and Quit: After making changes, save and quit as previously described.
+
+Prepare a tar Archive: To fulfill the requirement of tarring the file, you can create a tarball (compressed archive) of your file:
+
+
+tar -cvzf Introduction to Linux_vi_Editor Assignment.tar.gz Introduction to Linux_vi_Editor Assignment.txt
+This command creates a compressed archive called assignment.tar.gz that contains your assignment.txt file.
+
+
+
+
+That's it! You've created a document in the vi editor and prepared a tar archive. Now, let's focus on the research topic you've chosen for your essay:

@@ -1,0 +1,5 @@
+Create and open the file: vi Introduction\ to\ Linux_vi_Editor\ Assignment.txt
+
+Create an archive: tar -cvzf Introduction\ to\ Linux_vi_Editor\ Assignment.tar.gz Introduction\ to\ Linux_vi_Editor\ Assignment.txt
+
+Extract the file from the archive: tar -xvf Introduction\ to\ Linux_vi_Editor\ Assignment.tar.gz
